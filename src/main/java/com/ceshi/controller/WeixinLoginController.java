@@ -39,6 +39,7 @@ public class WeixinLoginController {
 
     /**
      * 回调地址处理
+     * 回调就是直接调用的loginUrl的地址请求，所以可以直接用ModelAndView跳转页面
      * @param code
      * @param state
      * @return
