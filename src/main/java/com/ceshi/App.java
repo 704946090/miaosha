@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 
 /**
- *秒杀项目
+ *秒杀项目a
  */
 @SpringBootApplication(scanBasePackages = {"com.ceshi"})
 @RestController
