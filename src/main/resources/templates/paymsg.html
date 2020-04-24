@@ -1,0 +1,123 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+
+        #imgq{
+            margin: 30px 60px;
+        }
+        #imgw{
+            margin: 30px 60px;
+        }
+
+
+
+    </style>
+</head>
+
+<link th:href="@{/assets/global/plugins/bootstrap/css/bootstrap.min.css}" rel="stylesheet" type="text/css" />
+<link th:href="@{/assets/global/css/components.css}" rel="stylesheet" type="text/css" />
+<link th:href="@{/assets/admin/pages/css/login.css}" rel="stylesheet" type="text/css" />
+<script type="text/javascript" th:src="@{/assets/global/plugins/jquery-1.11.0.min.js}"></script>
+
+<body>
+
+<div class="content">
+    <h3 class="form-title" id="dingdan">订单号信息:</h3>
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+            <tr>
+                <th>商品名</th>
+                <th>商品图片</th>
+                <th>商品描述</th>
+                <th>商品价格</th>
+                <th>购买数量</th>
+                <th>总金额</th>
+            </tr>
+            </thead>
+            <tbody id="container">
+
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+    </div>
+    <div align="center">
+        <a href="/pay"><img src="/images/zhifubao.jpg" width="150" id="imgq"/></a><img src="/images/weixin.jpg" width="150" id="imgw"/>
+    </div>
+</div>
+
+
+
+
+</body>
+<script>
+
+    //定义全局商品数组信息
+    var g_itemList = [];
+
+    // 页面渲染成功才可以操作
+    jQuery(document).ready(function(){
+
+        $.ajax({
+            // 请求头
+            type:"GET",
+            url:"http://localhost:8090/order/paymsg",
+            xhrFields:{withCredentials:true},
+            success:function(data){
+                if(data.status == "success"){
+
+                    g_itemList=data.data;
+                    reloadDom();
+
+                } else {
+                    alert("获取订单信息失败，原因为" + data.data.errMsg);
+                }
+            },
+            error:function(data){
+                alert("获取订单信息失败，原因为," + data.responseText);
+            }
+        });
+
+
+        $("#imgw").click(function () {
+
+            $.ajax({
+                // 请求头
+                type:"GET",
+                url:"http://localhost:8090/weixinpay/pay",
+                xhrFields:{withCredentials:true},
+                success:function(data){
+                    if(data.status == "success"){
+
+                        window.location.href="/user/payweixin";
+
+                    } else {
+                        alert("支付失败，原因为" + data.data.errMsg);
+                    }
+                },
+                error:function(data){
+                    alert("支付失败，原因为," + data.responseText);
+                }
+
+            });
+
+
+        });
+
+
+    });
+
+    function reloadDom() {
+
+            var dom="<tr><td>"+g_itemList.title+"</td><td><img style='width: 100px;height: auto;' src='"+g_itemList.imgUrl+"'/></td><td>"+g_itemList.description+"</td><td>"+g_itemList.price+"</td><td>"+g_itemList.amount+"</td><td>"+g_itemList.orderPrices+"</td></tr>";
+            $("#dingdan").text("订单号信息:"+g_itemList.id);
+            $("#container").append($(dom));
+
+
+    }
+
+</script>
+
+</html>

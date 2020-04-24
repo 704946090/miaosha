@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="124259ff-353d-4133-8d2b-85783f24eda0" name="Default Changelist" comment="电商平台" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>@ConfigurationProperties</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\ceshi\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/java/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="E:\java\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ayRljDy9YosmD7pyuyA3zvvJM0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567673767337" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\ceshi\src\main\resources\static" />
+      <recent name="G:\ceshi\src\main\resources\static\hhhm" />
+      <recent name="G:\ceshi\src\main\resources" />
+      <recent name="G:\ceshi\src\main\resources\templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ceshi.entity" />
+      <recent name="com.ceshi.config" />
+      <recent name="com.ceshi.controller" />
+      <recent name="com.ceshi.service.impl" />
+      <recent name="com.ceshi.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\ceshi\src\main\resources\templates" />
+      <recent name="G:\ceshi\src\main\java\com\ceshi\util" />
+      <recent name="G:\ceshi\src\main\resources\static\images" />
+      <recent name="G:\ceshi\src\main\java\com\ceshi" />
+      <recent name="G:\ceshi\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.t1">
+    <configuration name="OrderServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ceshi.service.impl.OrderServiceImpl" />
+      <module name="ceshi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ceshi.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ceshiali" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ceshi.controller.ceshiali" />
+      <module name="ceshi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ceshi.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="t1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ceshi.controller.t1" />
+      <module name="ceshi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ceshi.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ceshi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ceshi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ceshi.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ceshiali" />
+      <item itemvalue="Application.OrderServiceImpl" />
+      <item itemvalue="Application.t1" />
+      <item itemvalue="Spring Boot.App" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.t1" />
+        <item itemvalue="Application.ceshiali" />
+        <item itemvalue="Spring Boot.App" />
+        <item itemvalue="Application.OrderServiceImpl" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="124259ff-353d-4133-8d2b-85783f24eda0" name="Default Changelist" comment="" />
+      <created>1560257026879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560257026879</updated>
+      <workItem from="1560257030962" duration="261000" />
+      <workItem from="1560299956571" duration="24178000" />
+      <workItem from="1560336209824" duration="2685000" />
+      <workItem from="1560338916571" duration="1286000" />
+      <workItem from="1560393770975" duration="33477000" />
+      <workItem from="1560475091965" duration="3632000" />
+      <workItem from="1560478894260" duration="21925000" />
+      <workItem from="1560561598781" duration="15858000" />
+      <workItem from="1560582358998" duration="9071000" />
+      <workItem from="1560594554362" duration="29000" />
+      <workItem from="1560594797427" duration="4718000" />
+      <workItem from="1560647423023" duration="18573000" />
+      <workItem from="1560673737531" duration="9990000" />
+      <workItem from="1560732708519" duration="16305000" />
+      <workItem from="1560761417137" duration="8323000" />
+      <workItem from="1560774985992" duration="4356000" />
+      <workItem from="1560824756829" duration="9365000" />
+      <workItem from="1560843840484" duration="14365000" />
+      <workItem from="1560909000007" duration="4645000" />
+      <workItem from="1561005345224" duration="2622000" />
+      <workItem from="1561252946936" duration="278000" />
+      <workItem from="1561253339041" duration="393000" />
+      <workItem from="1561263465502" duration="429000" />
+      <workItem from="1561279967695" duration="151000" />
+      <workItem from="1563270178625" duration="788000" />
+      <workItem from="1563363636517" duration="2204000" />
+      <workItem from="1563367129485" duration="1179000" />
+      <workItem from="1563372786298" duration="1573000" />
+      <workItem from="1563407583668" duration="8581000" />
+      <workItem from="1563421544693" duration="6066000" />
+      <workItem from="1563497443911" duration="208000" />
+      <workItem from="1563497811756" duration="1346000" />
+      <workItem from="1563843756070" duration="2066000" />
+      <workItem from="1563848231196" duration="2425000" />
+      <workItem from="1563929198344" duration="2496000" />
+      <workItem from="1564015614820" duration="671000" />
+      <workItem from="1565690331322" duration="2151000" />
+      <workItem from="1565742155928" duration="1185000" />
+      <workItem from="1565829084834" duration="704000" />
+      <workItem from="1567649303587" duration="83000" />
+      <workItem from="1567649919073" duration="696000" />
+      <workItem from="1567673398423" duration="8000" />
+      <workItem from="1567673750655" duration="17000" />
+      <workItem from="1569286818654" duration="8792000" />
+      <workItem from="1587706003481" duration="756000" />
+      <workItem from="1587706774110" duration="416000" />
+      <workItem from="1587707202576" duration="75000" />
+      <workItem from="1587707285221" duration="1368000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="电商平台" />
+    <option name="LAST_COMMIT_MESSAGE" value="电商平台" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="userModel" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>alipay-sdk-java-3.7.4.ALL</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ceshi</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>java</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

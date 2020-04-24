@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>
+        WeixinPay
+    </title>
+    <style>
+
+        #imgq{
+            margin: 15px 30px;
+        }
+        #imgw{
+            margin: 15px 30px;
+        }
+
+    </style>
+
+    <link th:href="@{/stylesheets/bootstrap.min.css}" media="all" rel="stylesheet" type="text/css" />
+    <link th:href="@{/stylesheets/font-awesome.css}" media="all" rel="stylesheet" type="text/css" />
+    <link th:href="@{/stylesheets/se7en-font.css}" media="all" rel="stylesheet" type="text/css" />
+    <link th:href="@{/stylesheets/style.css}" media="all" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" th:src="@{/assets/global/plugins/jquery-1.11.0.min.js}"></script>
+
+    <!--<script th:src="@{/javascripts/jquery.min.js}" type="text/javascript"></script>-->
+    <!--<script th:src="@{/javascripts/jquery-ui.js}" type="text/javascript"></script>-->
+    <!--<script th:src="@{/javascripts/bootstrap.min.js}" type="text/javascript"></script>-->
+    <!--<script th:src="@{/javascripts/modernizr.custom.js}" type="text/javascript"></script>-->
+    <!--<script th:src="@{/javascripts/main.js}" type="text/javascript"></script>-->
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" charset="UTF-8">
+</head>
+<body class="login2">
+<!-- Login Screen -->
+<div class="login-wrapper">
+    <div>
+        <p style="text-align: center;color: #179407;font-size: 25px">请使用微信扫码支付</p>
+    </div>
+    <img src="/weixinpay/getQ" width="300" height="300" style="margin: 20px 0px">
+
+    <button class="btn btn-lg btn-primary btn-block" id="login" type="submit">
+        返 回
+    </button>
+    <!--<input class="btn btn-lg btn-primary btn-block" type="submit" value="Log in" id="login">-->
+</div>
+<!-- End Login Screen -->
+</body>
+
+<script>
+
+    // 页面渲染成功才可以操作
+    jQuery(document).ready(function(){
+
+        $("#login").on("click",function(){
+
+            window.location.href="/user/tolistitem";
+
+        });
+
+
+        var id= setInterval(function(){
+
+            $.ajax({
+                // 请求头
+                type:"GET",
+                url:"http://localhost:8090/weixinpay/check",
+                xhrFields:{withCredentials:true},
+                success:function(data){
+                    if(data.status == "success"){
+                        alert("支付成功");
+                        window.location.href="/user/tolistitem";
+                        clearInterval(id);
+                    }
+                },
+            });
+
+
+        },2000);
+
+    });
+
+</script>
+
+</html>
