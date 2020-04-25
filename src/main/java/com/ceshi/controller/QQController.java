@@ -14,7 +14,11 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.PrintWriter;
 
 
-
+/**
+ * 官方文档:腾讯开发平台(QQ互联)
+ * 使用QQ官方的SDK辅助开发sdk4j(需要引入jar包)
+ * 在qqconnectconfig.properties文件中修改app_ID和app_KEY,redirect_URI
+ */
 @Controller
 @CrossOrigin(allowCredentials = "true", allowedHeaders = "*")
 public class QQController {
